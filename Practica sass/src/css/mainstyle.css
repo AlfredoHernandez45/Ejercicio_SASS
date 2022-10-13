@@ -1,0 +1,17 @@
+body {
+  background-color: darkgrey;
+}
+
+h1 {
+  color: black;
+  background-color: blue;
+  padding: 15px;
+  width: 200px;
+}
+
+p {
+  color: grey;
+  width: 100px;
+}
+
+/*# sourceMappingURL=mainstyle.css.map */
