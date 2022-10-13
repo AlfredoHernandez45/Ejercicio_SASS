@@ -1,0 +1,69 @@
+.schneider
+	.hero-landing
+		background-image: url("https://cdn.shopify.com/s/files/1/0571/5899/2039/files/img-bg-prod-schneider.jpg")
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+		padding: 80px 0
+
+		.text-landing
+			max-width: 602px
+			width: 100%
+			h1
+				color: white
+				//tamaño de las letras
+				font-size: 30px!important
+				margin-bottom: 15px
+				//separacion entre el texto
+				line-height: 160%
+				//grosor de las letras
+				font-weight: 700px!important
+			p
+				color: white
+				font-size: 16px!important
+				line-height: 160%!important
+				margin-bottom: 20px
+			a
+				//es para bloquear y ver mejor los cambios
+				display: block
+				background-color: #FCD61C
+				color: #1D1D1D
+				//pordes redondos
+				border-radius: 10px
+				font-size: 16px
+				width: 100%
+				max-width: 173px
+				text-align: center
+				font-weight: 700
+				padding: 7px 0
+				border: 3px solid #FCD61C
+				&:hover
+					// hace que cambie de color cuando el cursor pasa sobre
+					background-color: yellowgreen
+					border: 3px solid yellowgreen
+
+	.conoce-productos
+		padding: 50px 0
+
+		h2
+			color: black
+			text-align: center
+			max-width: 870px
+			width: 100%
+			margin: 0 auto 50px
+			font-size: 21px
+			line-height: 160%
+
+		.grid-conoce-prod
+			display: grid
+			//hace la separacion de columnas en 3
+			grid-template-columns: 1fr 1fr 1fr
+			//separa las columnas
+			grid-gap: 30px
+			
+
+
+
+
+
+//sass --watch sass:css --style=expanded

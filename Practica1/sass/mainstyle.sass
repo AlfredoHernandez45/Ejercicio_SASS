@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap')
+
+*
+	margin: 0
+	padding: 0
+	//Esta parte no la entendi bien 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	font-smoothing: antialiased
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+// *-- transitions --*
+//Esta parte no la entendi bien 
+$trans: all .3s cubic-bezier(0.19, 1, 0.22, 1)
+$trans1: all .8s cubic-bezier(0.19, 1, 0.22, 1)
+$trans2: all .3s ease-in-out
+
+// *-- Variables --*
+@-webkit-keyframes uptodown 
+	0% 
+		-webkit-transform: translateY(-10px)
+	50% 
+		-webkit-transform: translateY(10px)
+	100%
+		-webkit-transform: translateY(-10px)
+
+@keyframes uptodown
+	0% 
+		-webkit-transform: translateY(-10px)
+	50% 
+		-webkit-transform: translateY(10px)
+	100%
+		-webkit-transform: translateY(-10px)
+
+body
+	font-family: 'Montserrat', sans-serif
+	background-color: #FAFAFA
+	position: relative
+	font-weight: 400
+	margin: 0
+	padding: 0
+	line-height: initial
+	overflow-x: unset!important
+	&.no_scroll
+		overflow: hidden
+	h1,h2,h3,h4,h5,h6
+		font-weight: 700
+		font-family: 'Montserrat', sans-serif
+	h1,h2,h3,h4,h5,h6,p,span 
+		margin: 0
+		font-family: 'Montserrat', sans-serif
+	.img-responsive
+		display: block
+		max-width: 100%
+	.content
+		width: 88%
+		max-width: 1440px
+		margin: 0 auto
+		padding: 0
+		&:before 
+			display: table
+			content: ""
+		&:after 
+			display: table
+			content: " "
+			clear: both
+	a
+		cursor: pointer
+		transition: $trans2
+		text-decoration: none
+		&:hover
+			text-decoration: none
+		&:focus
+			text-decoration: none
+
+//Esta parte no la entendi bien 
+::after,
+::before 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+@import landing-schneider
