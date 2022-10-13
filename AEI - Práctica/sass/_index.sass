@@ -1,0 +1,410 @@
+.index
+	.hero-index
+		.flex-hero-index
+			display: flex
+			.img-banner-m
+				width: 50%
+				background-color: #2F2E33
+				img
+					margin: 0 auto
+					width: 100%
+				.slick-prev
+					z-index:99
+					left: 15px
+					width: 30px
+					height: 30px
+					&:before
+						opacity: 0
+				.slick-next
+					right: 18px
+					width: 30px
+					height: 30px
+					&:before
+						opacity: 0
+			.txt-prod-acc
+				background-color: #1D1D1D
+				width: 50%
+				padding: 40px 60px
+				display: flex
+				justify-content: center
+				align-items: center
+				flex-flow: column
+				h1
+					color: white
+					line-height: 120%
+					font-size: 30px
+					font-weight: 700
+					margin-bottom: 40px
+				h2
+					font-weight: 400
+					font-size: 28px
+					line-height: 120%
+					color: white
+					margin-bottom: 20px
+				ul
+					padding-left: 40px
+					list-style: none
+					li
+						color: white
+						font-size: 18px
+						line-height: 140%
+						font-weight: 400
+						margin-bottom: 15px
+						position: relative
+						span
+							color: inherit
+						&:before
+							content: ""
+							width: 20px
+							height: 20px
+							left: -27px
+							top: 2px
+							position: absolute
+							background-position: center center
+							background-image: url(https://cdn.shopify.com/s/files/1/0571/5899/2039/files/check-circle.png?v=1660758857)
+
+	.indicaciones
+		padding: 50px 0
+		background-color: white
+		.grid-indicaciones
+			grid-template-columns: 1fr 1fr 1fr 1fr
+			grid-gap: 30px
+			display: grid
+			.item-grid-indicaciones
+				max-width: 276px
+				width: 100%
+				margin: 0 auto
+				img
+					margin: 0 auto 20px
+				h3
+					color: #1D1D1D
+					font-size: 21px
+					text-align: center
+					font-weight: 700
+					margin-bottom: 20px
+				p
+					text-align: center
+					color: #1D1D1D
+					font-size: 18px!important
+					line-height: 140%!important
+
+	.categorias-destacadas
+		padding: 50px 0
+		background-color: #EDEDED
+		h2
+			font-size: 32px
+			color: #1D1D1D
+			text-align: center
+			font-weight: 700
+			position: relative
+			&.ln:after
+				content: ""
+				display: block
+				margin: 20px auto
+				width: 56px
+				height: 4px
+				background-color: #FDD630
+		p.title-p
+			font-size: 20px!important
+			text-align: center
+			color: #1D1D1D
+			font-weight: 400
+		.grid-categorias-destacadas
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+			grid-gap: 15px
+			margin-top: 50px
+			.item-catego-dest
+				max-width: 234px
+				width: 100%
+				background-color: white
+				padding: 20px 5px
+				a
+					display: block
+					color: inherit
+				img
+					margin: 0 auto 20px
+				h3
+					text-align: center
+					color: #1D1D1D
+					font-size: 17px
+					text-align: center
+					margin-bottom: 15px
+				a.bnt-ver-prod
+					max-width: 185px
+					width: 100%
+					margin: 0 auto
+					border: 2px solid #FDD630
+					border-radius: 300px
+					text-align: center
+					font-size: 16px
+					font-weight: 600
+					line-height: 20px
+					padding: 12px 0
+					&:hover
+						background-color: #FDD630
+
+	.marca-destacada
+		padding: 60px 0
+		background-color: white
+		h2
+			font-size: 32px
+			color: #1D1D1D
+			text-align: center
+			font-weight: 700
+			position: relative
+		.img-marca
+			margin: 20px auto
+		p.marca-mes
+			font-size: 20px!important
+			text-align: center
+			color: #1D1D1D
+			font-weight: 400
+		.grid-arti-marca
+			margin-top: 50px
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+			grid-gap: 30px
+			.item-arti-marca
+				max-width: 380px
+				width: 100%
+				border: 1px solid #D9D9D9
+				border-radius: 4px
+				padding: 25px 20px 106px
+				margin: 0 auto
+				position: relative
+				a
+					display: block
+					color: inherit
+				img
+					margin: 0 auto 20px
+				h3
+					font-size: 22px
+					font-weight: 700
+					color: #1D1D1D
+					margin-bottom: 8px
+				h4.brand-art
+					font-size: 20px
+					font-weight: 400
+					color: #1D1D1D
+					&:after
+						content: ""
+						height: 4px
+						width: 56px
+						background-color: #FDD630
+						display: block
+						margin: 15px 0
+				p
+					color: #1D1D1D
+					font-size: 16px!important
+					line-height: 140%!important
+					font-weight: 400
+				a.btn-vermas-art
+					max-width: 330px
+					width: 100%
+					margin: 0 auto
+					background-color: #FDD630
+					border-radius: 300px
+					padding: 15px 0
+					text-align: center
+					color: #1D1D1D
+					font-weight: 700
+					margin-top: 30px
+					border: 1px solid #FDD630
+					position: absolute
+					bottom: 25px
+					&:hover
+						background-color: white
+
+	.centro-de-aprendizaje-index
+		background-color: #FDD630
+		padding: 60px 0
+		h2
+			font-size: 32px
+			color: #1D1D1D
+			text-align: center
+			font-weight: 700
+			position: relative
+			&.ln:after
+				content: ""
+				display: block
+				margin: 20px auto
+				width: 56px
+				height: 4px
+				background-color: #1D1D1D
+		p.p-aprd
+			font-size: 20px!important
+			text-align: center
+			color: #1D1D1D
+			font-weight: 400
+
+		.grid-art-centro
+			margin-top: 50px
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+			.item-art-centro
+				max-width: 380px
+				width: 100%
+				margin: 0 auto
+				background-color: white
+				a
+					display: block
+					color: inherit
+				img
+					margin: 0 auto
+					max-width: 100%
+					display: block
+				.body-art-centro
+					padding: 30px 25px
+					h4
+						color: #1D1D1D
+						font-size: 14px
+						font-weight: 700
+						&:after
+							content: ""
+							display: block
+							margin: 20px 0
+							height: 4px
+							width: 56px
+							background-color: #FDD630
+					h3
+						font-size: 20px
+						font-weight: 400
+						line-height: 150%
+						strong
+							font-weight: 700
+
+	.experiencia-respaldan
+		padding: 50px 0
+		background-color: white
+		.flex-experiencias
+			display: flex
+			justify-content: space-evenly
+			align-items: center
+			.txt-experiencias
+				max-width: 585px
+				width: 100%
+				margin-right: 20px
+				h2
+					font-size: 44px
+					font-weight: 600
+					color: #1D1D1D
+					margin-bottom: 30px
+					strong
+						font-weight: 700
+				.txt-exp
+					padding-left: 60px
+					border-left: 4px solid #FDD630
+					p
+						font-size: 20px!important
+						line-height: 160%
+						color: #1D1D1D
+					.btnconocer
+						max-width: 213px
+						width: 100%
+						background-color: #FDD630
+						padding: 14px 0
+						text-align: center
+						border-radius: 300px
+						color: black
+						font-size: 16px
+						display: block
+						font-weight: bold
+						margin-top: 40px
+						border: 1px solid #FDD630
+						&:hover
+							background-color: white
+			.img-sliders
+				max-width: 634px
+				width: 100%
+
+	.suscribete-boletin
+		padding: 40px 0
+		.box-suscribe
+			background-color: #1D1D1D
+			padding: 40px 100px
+			max-width: 1212px
+			width: 100%
+			margin: 0 auto
+			border-radius: 20px
+			h2
+				color: white
+				font-size: 22px
+				font-weight: 400
+				margin-bottom: 20px
+				span
+					display: block
+					color: #FDD630
+
+	.nuestras-marcas
+		padding: 60px 0
+		background-color: white
+		h2
+			font-size: 32px
+			color: #1D1D1D
+			text-align: center
+			font-weight: 700
+			position: relative
+			&.ln:after
+				content: ""
+				display: block
+				margin: 20px auto
+				width: 56px
+				height: 4px
+				background-color: #FDD630
+		.grid-marcas-line
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+			display: grid
+			grid-gap: 30px
+			justify-content: center
+			align-items: center
+			margin-top: 40px
+			.item-line-marcas
+				max-width: 170px
+				width: 100%
+		.slider-marcas
+			margin-top: 40px
+			.slick-prev.slick-arrow,
+			.slick-next.slick-arrow
+				&:before
+					content: ""
+			.itemslide-marca
+				margin: 0 auto
+				a
+					img
+						max-width: 190px
+						width: 100%
+						margin: 0 auto
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
