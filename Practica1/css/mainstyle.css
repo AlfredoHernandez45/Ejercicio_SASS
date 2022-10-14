@@ -7,31 +7,22 @@
   box-sizing: border-box;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 @-webkit-keyframes uptodown {
   0% {
-    -webkit-transform: translateY(-10px);
-  }
+    -webkit-transform: translateY(-10px); }
   50% {
-    -webkit-transform: translateY(10px);
-  }
+    -webkit-transform: translateY(10px); }
   100% {
-    -webkit-transform: translateY(-10px);
-  }
-}
+    -webkit-transform: translateY(-10px); } }
 @keyframes uptodown {
   0% {
-    -webkit-transform: translateY(-10px);
-  }
+    -webkit-transform: translateY(-10px); }
   50% {
-    -webkit-transform: translateY(10px);
-  }
+    -webkit-transform: translateY(10px); }
   100% {
-    -webkit-transform: translateY(-10px);
-  }
-}
+    -webkit-transform: translateY(-10px); } }
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #FAFAFA;
@@ -40,114 +31,165 @@ body {
   margin: 0;
   padding: 0;
   line-height: initial;
-  overflow-x: unset !important;
-}
-body.no_scroll {
-  overflow: hidden;
-}
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-}
-body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-}
-body .img-responsive {
-  display: block;
-  max-width: 100%;
-}
-body .content {
-  width: 88%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0;
-}
-body .content:before {
-  display: table;
-  content: "";
-}
-body .content:after {
-  display: table;
-  content: " ";
-  clear: both;
-}
-body a {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-body a:hover {
-  text-decoration: none;
-}
-body a:focus {
-  text-decoration: none;
-}
+  overflow-x: unset !important; }
+  body.no_scroll {
+    overflow: hidden; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p, body span {
+    margin: 0;
+    font-family: "Montserrat", sans-serif; }
+  body .img-responsive {
+    display: block;
+    max-width: 100%; }
+  body .content {
+    width: 88%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0; }
+    body .content:before {
+      display: table;
+      content: ""; }
+    body .content:after {
+      display: table;
+      content: " ";
+      clear: both; }
+  body a {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: none; }
+    body a:focus {
+      text-decoration: none; }
 
 ::after,
 ::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .schneider .hero-landing {
-  background-image: url("https://cdn.shopify.com/s/files/1/0571/5899/2039/files/img-bg-prod-schneider.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  padding: 80px 0;
-}
-.schneider .hero-landing .text-landing {
-  max-width: 602px;
-  width: 100%;
-}
-.schneider .hero-landing .text-landing h1 {
-  color: white;
-  font-size: 30px !important;
-  margin-bottom: 15px;
-  line-height: 160%;
-  font-weight: 700px !important;
-}
-.schneider .hero-landing .text-landing p {
-  color: white;
-  font-size: 16px !important;
-  line-height: 160% !important;
-  margin-bottom: 20px;
-}
-.schneider .hero-landing .text-landing a {
-  display: block;
-  background-color: #FCD61C;
-  color: #1D1D1D;
-  border-radius: 10px;
-  font-size: 16px;
-  width: 100%;
-  max-width: 173px;
-  text-align: center;
-  font-weight: 700;
-  padding: 7px 0;
-  border: 3px solid #FCD61C;
-}
-.schneider .hero-landing .text-landing a:hover {
-  background-color: yellowgreen;
-  border: 3px solid yellowgreen;
-}
+  background: linear-gradient(180deg, #1D1D1D 0%, #383838 100%);
+  padding: 80px 0; }
+  .schneider .hero-landing background {
+    size: cover;
+    position: center center;
+    repeat: no-repeat; }
+  .schneider .hero-landing .text-landing {
+    max-width: 602px;
+    width: 100%; }
+    .schneider .hero-landing .text-landing h1 {
+      color: white;
+      font-size: 30px !important;
+      margin-bottom: 15px;
+      line-height: 160%;
+      font-weight: 700px !important; }
+    .schneider .hero-landing .text-landing p {
+      color: white;
+      font-size: 16px !important;
+      line-height: 160% !important;
+      margin-bottom: 20px; }
+    .schneider .hero-landing .text-landing a {
+      display: block;
+      background-color: #FCD61C;
+      color: #1D1D1D;
+      border-radius: 10px;
+      font-size: 16px;
+      width: 100%;
+      max-width: 173px;
+      text-align: center;
+      font-weight: 700;
+      padding: 7px 0;
+      border: 3px solid #FCD61C; }
+      .schneider .hero-landing .text-landing a:hover {
+        background-color: white;
+        border: 3px solid yellowgreen; }
 .schneider .conoce-productos {
-  padding: 50px 0;
-}
-.schneider .conoce-productos h2 {
-  color: black;
-  text-align: center;
-  max-width: 870px;
-  width: 100%;
-  margin: 0 auto 50px;
-  font-size: 21px;
-  line-height: 160%;
-}
-.schneider .conoce-productos .grid-conoce-prod {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
-}
+  padding: 50px 0; }
+  .schneider .conoce-productos h2 {
+    color: black;
+    text-align: center;
+    max-width: 870px;
+    width: 100%;
+    margin: 0 auto 50px;
+    font-size: 21px;
+    line-height: 160%; }
+  .schneider .conoce-productos .grid-conoce-prod {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px; }
+    .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce {
+      max-width: 427px;
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #EFEFEF;
+      box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s; }
+      .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce:hover {
+        box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.3);
+        transition: all 0.2s; }
+      .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .head-title-prod {
+        padding: 30px 15px; }
+        .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .head-title-prod h3 {
+          text-align: center;
+          font-size: 18px;
+          color: #4D4D4D;
+          font-weight: 700; }
+      .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .img-tab-produ {
+        padding: 0 20px;
+        img-margin: 0 auto; }
+      .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .body-prod-grid {
+        padding: 30px 15px; }
+        .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .body-prod-grid p {
+          text-align: center;
+          color: #444444;
+          font-size: 15px !important;
+          font-weight: 400;
+          margin-bottom: 30px; }
+        .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .body-prod-grid a {
+          display: block;
+          background-color: #FCD61C;
+          color: black;
+          max-width: 111px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 13px;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 700;
+          border-radius: 10px;
+          border: 1px solid #FCD61C; }
+          .schneider .conoce-productos .grid-conoce-prod .item-grid-conoce .body-prod-grid a:hover {
+            background-color: white;
+            border: 1px solid yellowgreen;
+            box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.3);
+            color: black; }
+.schneider .principales-industrias {
+  padding: 50px;
+  background-color: #F4F4F4; }
+  .schneider .principales-industrias h2 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0 auto 40px; }
+  .schneider .principales-industrias .grid-indus-prin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px; }
+    .schneider .principales-industrias .grid-indus-prin .item-grid-indus {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 167px; }
+      .schneider .principales-industrias .grid-indus-prin .item-grid-indus img {
+        margin: 0 auto 25px; }
+      .schneider .principales-industrias .grid-indus-prin .item-grid-indus h3 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: black; }
 
 /*# sourceMappingURL=mainstyle.css.map */
